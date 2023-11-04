@@ -1,11 +1,11 @@
 :root {
     --primary-color: #3dcd83;
 }
-
+/* header start */
 .header {
     width: 100%;
-    height: 650px;
-    background-image: url(../assets/headerbg.jpg);
+    height: 660px;
+    background-image: url(../assets/images/headerbg.jpg);
     background-size: cover;
 }
 .navbar {
@@ -43,3 +43,50 @@
     cursor: pointer;
     background-color: #323843;
 }
+.hero {
+    width: 100%;
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bundles {
+    display: flex;
+    gap: 40px;
+}
+.bundle-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20rem;
+}
+.bundle-title {
+    font-size: 12px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.bundle-img {
+    height: 60px;
+}
+.bundle-description {
+    color: #fff;
+    text-align: center;
+}
+.buy-bundle-btn {
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    font-weight: bold;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+}
+.buy-bundle-btn:hover {
+    cursor: pointer;
+    opacity: 80%;
+    transition: 0.3s;
+}
+.terms-link {
+    font-size: 14px;
+}
+
+/* header end */
