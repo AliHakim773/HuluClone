@@ -43,7 +43,7 @@
     cursor: pointer;
     background-color: #323843;
 }
-.hero {
+.header-content {
     width: 100%;
     height: calc(100% - 80px);
     display: flex;
