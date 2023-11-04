@@ -31,3 +31,20 @@ img {
     text-decoration: underline;
     color: #fff;
 }
+.secondary-title {
+    font-size: 12px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.primary-btn {
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    font-weight: bold;
+    border-radius: 5px;
+    height: 40px;
+}
+.primary-btn:hover {
+    cursor: pointer;
+    opacity: 80%;
+    transition: 0.3s;
+}
