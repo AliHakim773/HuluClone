@@ -17,4 +17,7 @@ img {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
+    background-color: rgb(231, 231, 231);
+    align-items: center;
 }
