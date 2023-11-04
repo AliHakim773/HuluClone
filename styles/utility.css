@@ -18,13 +18,10 @@ img {
 }
 .page {
     width: 100vw;
-    font-family: Graphik, Helvetica, sans-serif;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
     overflow-y: scroll;
-    background-color: rgb(231, 231, 231);
     align-items: center;
+    font-family: Graphik, Helvetica, sans-serif;
 }
 .flex-center {
     justify-content: center;
