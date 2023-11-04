@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #3dcd83;
+}
+
+.header {
+    width: 100%;
+    height: 650px;
+    background-image: url(../assets/headerbg.jpg);
+    background-size: cover;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logo path {
+    fill: var(--primary-color);
+}
+.login-btn {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.login-btn button {
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 40px;
+    padding: 15px;
+    color: grey;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.login-btn button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #323843;
+}
