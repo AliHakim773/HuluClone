@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./styles/utility.css" />
+        <link rel="stylesheet" href="./styles/toggleSwitch.css" />
         <link rel="stylesheet" href="./styles/home.css" />
         <title>Hulu Clone</title>
     </head>
@@ -206,6 +207,189 @@
                 </div>
             </div>
             <!-- live end -->
+
+            <!-- plan start -->
+            <div class="plan">
+                <div class="plan-header border-bottom">
+                    <h2 class="plan-title">Select Your Plan</h2>
+                    <div class="plan-title-description">
+                        No hidden fees, equipment rentals, or installation
+                        appointments.
+                    </div>
+                    <div class="plan-title-description bold">
+                        Switch plans or cancel anytime.**
+                    </div>
+                </div>
+                <div class="plan-table">
+                    <div class="plan-row flex-center plan-head border-bottom">
+                        <div class="plan-data grow2">
+                            <div class="flex-container">
+                                <div class="base-save-plan">
+                                    <h3>BASE PLANS</h3>
+                                    <div class="base-plan-img">
+                                        <img
+                                            src="./assets/images/hulu.svg"
+                                            alt="hulu logo" />
+                                    </div>
+                                </div>
+                                <!-- The input is stolen from the hulu website -->
+                                <div class="plan-switch">
+                                    <div
+                                        class="bundle-header-with-new-toggle__toggle-container">
+                                        <div class="toggle-switch">
+                                            <input
+                                                class="toggle-switch__checkbox"
+                                                type="checkbox" /><label
+                                                class="toggle-switch__label"
+                                                for="toggle-switch"
+                                                ><span
+                                                    class="toggle-switch__button"></span
+                                            ></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="base-save-plan">
+                                    <h3>BUNDLE / SAVE</h3>
+                                    <div class="save-plan-img">
+                                        <img
+                                            src="./assets/images/trio-bundle.png"
+                                            alt="tio logo" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plan-data grow1 relative">
+                            <div class="popular">Most Popular</div>
+                            <div class="plan-description">
+                                <div class="trial">30 DAYS FREE TRIAL</div>
+                                <div class="hulu-ads">Hulu (With Ads)</div>
+                            </div>
+                            <button class="plan-btn">$7.99 / MONTH</button>
+                        </div>
+                        <div class="plan-data grow1">
+                            <div class="plan-description">
+                                <div class="trial">30 DAYS FREE TRIAL</div>
+                                <div class="hulu-ads">Hulu (No Ads)</div>
+                            </div>
+                            <button class="plan-btn">$17.99 / MONTH</button>
+                        </div>
+                    </div>
+                    <div class="plan-row flex-center border-bottom">
+                        <div class="plan-data plan-data-start grow2">
+                            Monthly price
+                        </div>
+                        <div class="plan-data grow1">$7.99/mo.</div>
+                        <div class="plan-data grow1">$17.99/mo.</div>
+                    </div>
+                    <div class="plan-row flex-center border-bottom">
+                        <div class="plan-data plan-data-start grow2">
+                            Streaming Library with tons of TV episodes and
+                            movies
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                    </div>
+                    <div class="plan-row flex-center border-bottom">
+                        <div class="plan-data plan-data-start grow2">
+                            Most new episodes the day after they air†
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                    </div>
+                    <div class="plan-row flex-center border-bottom">
+                        <div class="plan-data plan-data-start grow2">
+                            Access to award-winning Hulu Originals
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                    </div>
+                    <div class="plan-row flex-center border-bottom">
+                        <div class="plan-data plan-data-start grow2">
+                            Watch on your favorite devices, including TV,
+                            laptop, phone, or tablet
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                    </div>
+                    <div class="plan-row flex-center border-bottom">
+                        <div class="plan-data plan-data-start grow2">
+                            Up to 6 user profilesUp to 6 user profiles
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                    </div>
+                    <div class="plan-row flex-center border-bottom">
+                        <div class="plan-data plan-data-start grow2">
+                            Watch on 2 different screens at the same time
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                    </div>
+                    <div class="plan-row flex-center border-bottom">
+                        <div class="plan-data plan-data-start grow2">
+                            No ads in streaming libraryNo ads in streaming
+                            library
+                        </div>
+                        <div class="plan-data grow1">
+                            <span class="dash">-</span>
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                    </div>
+                    <div class="plan-row flex-center border-bottom">
+                        <div class="plan-data plan-data-start grow2">
+                            Download and watchDownload and watch
+                        </div>
+                        <div class="plan-data grow1">
+                            <span class="dash">-</span>
+                        </div>
+                        <div class="plan-data grow1">
+                            <img src="./assets/images/check.svg" alt="check" />
+                        </div>
+                    </div>
+                </div>
+                <div class="table-disclaimer">
+                    <p>
+                        †For current-season shows in the streaming library only
+                    </p>
+                    <p>
+                        **Switches from Live TV to Hulu take effect as of the
+                        next billing cycle
+                    </p>
+                </div>
+                <div class="add-ons flex-center">
+                    <p>Show Add-ons</p>
+                    <img
+                        src="./assets/images/down arrow.svg"
+                        alt="down arrow" />
+                </div>
+            </div>
+            <!-- plan end -->
         </div>
     </body>
 </html>

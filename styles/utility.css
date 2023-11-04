@@ -48,3 +48,18 @@ img {
     opacity: 80%;
     transition: 0.3s;
 }
+.bold {
+    font-weight: 800;
+}
+.border-bottom {
+    border-bottom: 1px solid #575759;
+}
+.grow1 {
+    width: 25%;
+}
+.grow2 {
+    width: 50%;
+}
+.relative {
+    position: relative;
+}

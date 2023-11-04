@@ -1,6 +1,6 @@
 :root {
-    --primary-color: hsl(149, 59%, 52%);
-    --secondary-color: rgb(11, 12, 15);
+    --primary-color: #3dcc82;
+    --secondary-color: #0b0c0f;
 }
 /* header start */
 .header {
@@ -253,3 +253,112 @@
     cursor: pointer;
 }
 /* live end */
+
+/* plan start */
+.plan {
+    background-color: var(--secondary-color);
+    padding: 5rem 10rem;
+    color: #fff;
+}
+.plan-header {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.plan-title {
+    font-size: 46px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.plan-title-description {
+    font-size: 18px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.base-save-plan h3 {
+    font-size: 14px;
+}
+.save-plan-img {
+    height: 35px;
+}
+.base-plan-img {
+    height: 15px;
+    padding-top: 5px;
+}
+.plan-head {
+    height: 215px;
+}
+.plan-row {
+    display: flex;
+    gap: 10px;
+}
+.plan-data {
+    text-align: center;
+    padding-block: 30px;
+    font-size: 13px;
+}
+.plan-switch {
+    margin-inline: 15px;
+}
+.popular {
+    position: absolute;
+    right: 50%;
+    top: -10%;
+    transform: translateX(50%);
+    background-color: var(--primary-color);
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+.trial {
+    color: #bec0c2;
+    font-size: 14px;
+}
+.hulu-ads {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.plan-btn {
+    width: 100%;
+    margin: 5px;
+    background-color: #fff;
+    font-weight: bold;
+    color: #000;
+    border-radius: 5px;
+    height: 40px;
+}
+.plan-data-start {
+    text-align: start;
+}
+.plan-data img {
+    width: 20px;
+}
+.dash {
+    font-size: 24px;
+}
+.table-disclaimer {
+    font-size: 9px;
+    margin: 10px;
+}
+.table-disclaimer p {
+    margin: 5px;
+}
+.add-ons {
+    border-bottom: 1px solid #575759;
+    border-top: 1px solid #575759;
+    display: flex;
+    margin: 60px 0 10px 0;
+    padding: 30px;
+    gap: 10px;
+}
+.add-ons img {
+    width: 20px;
+}
+/* plan end */
