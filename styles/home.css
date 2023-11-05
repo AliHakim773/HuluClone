@@ -52,6 +52,7 @@
     gap: 20px;
 }
 .bundles {
+    width: 100%;
     display: flex;
     gap: 40px;
 }
@@ -120,6 +121,7 @@
     flex-direction: column;
     padding: 80px;
     background-color: var(--secondary-color);
+    width: 100%;
 }
 .library-title {
     font-size: 40px;
@@ -134,7 +136,9 @@
     width: 67%;
 }
 .show-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
     margin-block: 40px;
 }
 .show-item {
@@ -409,3 +413,31 @@
     font-size: 14px;
 }
 /* footer end */
+
+/* media queries start */
+@media only screen and (max-width: 768px) {
+    .bundles {
+        gap: 20px;
+        padding-inline: 20px;
+    }
+    .bundle-description {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .buy-bundle-btn {
+        width: 50%;
+    }
+    .call-to-action-title {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .call-to-action-btn {
+        width: 170px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .show-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+} /* media queries end */
