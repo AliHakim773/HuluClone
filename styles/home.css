@@ -291,7 +291,11 @@
     padding-top: 5px;
 }
 .plan-head {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     height: 215px;
+    background-color: var(--secondary-color);
 }
 .plan-row {
     display: flex;
@@ -305,7 +309,7 @@
 .plan-switch {
     margin-inline: 15px;
 }
-.popular {
+.plan-popular {
     position: absolute;
     right: 50%;
     top: -10%;
